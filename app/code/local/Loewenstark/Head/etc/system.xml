@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <sections>
+        <design>
+            <groups>
+                <head>
+                    <fields>
+                        <meta_version_tag translate="label comment">
+                            <label>Version Tag for JS/CSS Files in Header</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>9999</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </meta_version_tag>
+                    </fields>
+                </head>
+            </groups>
+        </design>
+    </sections>
+</config>

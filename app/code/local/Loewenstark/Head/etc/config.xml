@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Loewenstark_Head>
+            <version>0.0.0.1</version>
+        </Loewenstark_Head>
+    </modules>
+    <global>
+        <helpers>
+            <loe_head>
+                <class>Loewenstark_Head_Helper</class>
+            </loe_head>
+        </helpers>
+        <blocks>
+            <loe_head>
+                <class>Loewenstark_Head_Block</class>
+            </loe_head>
+            <page>
+                <rewrite>
+                    <html_head>Loewenstark_Head_Block_Page_Html_Head</html_head>
+                </rewrite>
+            </page>
+        </blocks>
+    </global>
+    <default>
+        <design>
+            <head>
+                <meta_version_tag>1</meta_version_tag>
+            </head>
+        </design>
+    </default>
+</config>

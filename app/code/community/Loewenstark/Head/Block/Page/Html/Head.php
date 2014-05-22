@@ -9,4 +9,22 @@ extends Mage_Page_Block_Html_Head
         $format = sprintf($format, "%s?v{$version}", "%s");
         return parent::_prepareStaticAndSkinElements($format, $staticItems, $skinItems, $mergeCallback);
     }
+    
+    /**
+     * remove element by Type
+     * 
+     * @param string $type
+     * @return \Loewenstark_Head_Block_Page_Html_Head
+     */
+    public function removeByType($type)
+    {
+        foreach($this->_data as $key=>$value)
+        {
+            if(strstr($key, $type.'/'))
+            {
+                unset($this->_data[$key]);
+            }
+        }
+        return $this;
+    }
 }

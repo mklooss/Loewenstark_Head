@@ -14,7 +14,7 @@ extends Mage_Page_Block_Html_Head
      * remove element by Type
      * 
      * @param string $type
-     * @return \Loewenstark_Head_Block_Page_Html_Head
+     * @return Loewenstark_Head_Block_Page_Html_Head
      */
     public function removeByType($type)
     {

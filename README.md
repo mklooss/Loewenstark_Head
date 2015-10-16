@@ -13,6 +13,9 @@ After:
 <link rel="stylesheet" type="text/css" href="https://www.demo.de/js/example.css?v2" />
 ```
 
-# Raise Version tag
+# Raise Version Tag
 **Optimal:** Use a setup script in your project module. (Path: design/head/meta_version_tag)  
 **Manually:** Backend > System > Configuration > Design > HTML Head > "Version Tag for JS/CSS Files in Header"
+
+# Not Work?
+Check rewrites for `page/html_head`
